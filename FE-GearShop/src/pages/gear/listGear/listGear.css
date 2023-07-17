@@ -1,0 +1,15 @@
+.card__item {
+  margin-bottom: 20px;
+
+  background-color: var(--white-color);
+}
+.card__img {
+  height: 200px;
+}
+.card__price {
+  color: var(--main-color);
+  font-weight: 700;
+}
+.card__link {
+  text-decoration: none;
+}

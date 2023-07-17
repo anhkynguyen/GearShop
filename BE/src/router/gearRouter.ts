@@ -1,0 +1,11 @@
+import { Router } from "express";
+import gearController from "../controller/gearController";
+import { auth } from "../middleware/auth";
+export const gearRouter = Router();
+gearRouter.use(auth);
+gearRouter.post("", gearController.addGear);
+gearRouter.get("/listGearOfUser", gearController.getAllGearOfUser);
+gearRouter.put("/:gearId", gearController.updateGear);
+gearRouter.delete("/:gearId", gearController.deleteGear);
+gearRouter.get("/:gearId", gearController.findGearById);
+gearRouter.get("", gearController.getAllGear);

@@ -1,0 +1,56 @@
+.register {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register__form {
+  height: 600px;
+  width: 440px;
+  background-color: white;
+  box-shadow: #1e283c 0px 0px 8px 0px;
+  border-radius: 7px;
+}
+.register__form-logo {
+  display: flex;
+  justify-content: center;
+}
+.register__form-logo-img {
+  margin-top: 20px;
+  width: 200px;
+  height: 60px;
+}
+.register__form-text {
+  margin: 24px 41px;
+}
+.register__form-info {
+  width: 360px;
+  height: 220px;
+}
+.register__form-info-input {
+  width: 359px;
+  height: 47px;
+  margin: 14px 41px;
+  border-radius: 4px;
+  outline: unset;
+  border: thin groove rgb(192, 192, 192);
+}
+.register__form-changePassword {
+  margin: 10px 41px;
+  text-decoration: none;
+}
+.register__form-button {
+  width: 360px;
+  height: 39px;
+  margin: 10px 41px;
+  background-color: var(--button-color);
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+.register__form-button:hover {
+  background-color: var(--main-color);
+}
